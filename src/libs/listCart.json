@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Blue Denim Shirt",
+    "shirtCode": "BDS01 BLUE",
+    "shirtColor": "BLUE",
+    "img": "/images/shirt-1.jpg",
+    "size": "M",
+    "note": "Note: 1 Place",
+    "price": "17.99",
+    "amount": 1
+  },
+  {
+    "id": 2,
+    "name": "Red Hoodie",
+    "shirtCode": "K8WO3 RED",
+    "shirtColor": "RED",
+    "img": "/images/hoodie-1.jpg",
+    "size": "M",
+    "note": "",
+    "price": "35.99",
+    "amount": 1
+  }
+]
