@@ -30,7 +30,7 @@ function App() {
               <h2 className="mb-5 card-title">The Total Amount of</h2>
               <div className="flex justify-between w-full">
                 <p className="text-left">Temporary Amount</p>
-                <p className="w-1/2 text-right">Temporary Amount</p>
+                <p className="w-1/2 text-right">{totalAmount}</p>
               </div>
               <div className="flex justify-between w-full">
                 <p className="text-left">Shipping</p>
@@ -53,7 +53,7 @@ function App() {
           <div className="w-full shadow-xl card bg-base-100">
             <div className="card-body">
               <select className="w-full outline-none select select-ghost focus:outline-none">
-                <option disabled selected>
+                <option disabled defaultValue="">
                   Add a discount code (optional)
                 </option>
                 <option>Discount 1</option>
