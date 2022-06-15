@@ -62,7 +62,7 @@ const Cart = ({
               </p>
             </div>
             <div className="items-center w-full mt-5 card-actions md:flex">
-              <div className="gap-2 space-y-4 md:space-y-0 md:flex">
+              <div className="gap-2 space-y-4 md:space-y-0 md:flex w-full">
                 <button
                   className="w-full gap-2 md:w-fit btn btn-sm btn-ghost"
                   onClick={() => dispatch(remove(id))}
